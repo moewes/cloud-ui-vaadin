@@ -3,6 +3,7 @@ package net.moewes.cloud.ui.vaadin;
 import java.util.function.Consumer;
 
 import net.moewes.cloud.ui.UiComponent;
+import net.moewes.cloud.ui.UiEvent;
 
 /**
  * CloudUi representation of Vaadin Button
@@ -18,7 +19,7 @@ public class Button extends UiComponent {
         setText(text);
     }
 
-    public Button(String text, Consumer<String> handler) {
+    public Button(String text, Consumer<UiEvent> handler) {
         this();
         setText(text);
         addEventListener("click", handler);
@@ -29,7 +30,7 @@ public class Button extends UiComponent {
         setIcon(icon);
     }
 
-    public Button(UiComponent icon, Consumer<String> handler) {
+    public Button(UiComponent icon, Consumer<UiEvent> handler) {
         this();
         setIcon(icon);
         addEventListener("click", handler);
@@ -41,7 +42,7 @@ public class Button extends UiComponent {
         setIcon(icon);
     }
 
-    public Button(String text, UiComponent icon, Consumer<String> handler) {
+    public Button(String text, UiComponent icon, Consumer<UiEvent> handler) {
         this();
         setText(text);
         setIcon(icon);
