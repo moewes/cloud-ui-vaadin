@@ -1,4 +1,4 @@
-package net.moewes.cloud.ui.vaadin;
+package net.moewes.cloudui.vaadin;
 
 import net.moewes.cloud.ui.UiComponent;
 
