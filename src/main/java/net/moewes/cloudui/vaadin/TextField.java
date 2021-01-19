@@ -1,7 +1,7 @@
 package net.moewes.cloudui.vaadin;
 
 import lombok.Getter;
-import net.moewes.cloud.ui.UiComponent;
+import net.moewes.cloudui.UiComponent;
 
 @Getter
 public class TextField extends UiComponent {

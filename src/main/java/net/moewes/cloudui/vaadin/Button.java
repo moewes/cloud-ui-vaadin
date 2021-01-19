@@ -2,8 +2,8 @@ package net.moewes.cloudui.vaadin;
 
 import java.util.function.Consumer;
 
-import net.moewes.cloud.ui.UiComponent;
-import net.moewes.cloud.ui.UiEvent;
+import net.moewes.cloudui.UiComponent;
+import net.moewes.cloudui.UiEvent;
 
 /**
  * CloudUi representation of Vaadin Button

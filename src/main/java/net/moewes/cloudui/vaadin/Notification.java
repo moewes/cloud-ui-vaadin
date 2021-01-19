@@ -4,7 +4,7 @@ import java.util.Locale;
 
 import lombok.Getter;
 import lombok.Setter;
-import net.moewes.cloud.ui.UiComponent;
+import net.moewes.cloudui.UiComponent;
 
 /**
  * CloudUi representation of Vaadin Notification

@@ -1,6 +1,6 @@
 package net.moewes.cloudui.vaadin;
 
-import net.moewes.cloud.ui.UiComponent;
+import net.moewes.cloudui.UiComponent;
 
 public class AppLayout extends UiComponent {
 
