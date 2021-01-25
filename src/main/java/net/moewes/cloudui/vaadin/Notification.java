@@ -14,7 +14,7 @@ import net.moewes.cloudui.UiComponent;
 public class Notification extends UiComponent {
 
     private String text;
-    private Integer duration;
+    private Integer duration = 2000;
     private Position position = Position.BOTTOM_START;
     private boolean isOpen = false;
 
