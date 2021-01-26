@@ -7,7 +7,7 @@ import lombok.Setter;
 import net.moewes.cloudui.UiComponent;
 
 /**
- * CloudUi representation of Vaadin Notification
+ * Java wrapper for Vaadin web component vaadin-notification
  */
 @Getter
 @Setter
@@ -18,6 +18,9 @@ public class Notification extends UiComponent {
     private Position position = Position.BOTTOM_START;
     private boolean isOpen = false;
 
+    /**
+     * default constructor
+     */
     public Notification() {
         super("cloudui-notification-wrapper");
     }
@@ -65,5 +68,8 @@ public class Notification extends UiComponent {
         getElement().setAttribute("isOpen", "true");
     }
 
+    /**
+     * possible value for attribute position
+     */
     public enum Position {BOTTOM_CENTER, BOTTOM_END, BOTTOM_START, BOTTOM_STRETCH, MIDDLE, TOP_CENTER, TOP_END, TOP_START, TOP_STRETCH}
 }
