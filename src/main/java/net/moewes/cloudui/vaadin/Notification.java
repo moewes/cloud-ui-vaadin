@@ -30,12 +30,25 @@ public class Notification extends UiComponent {
         setText(text);
     }
 
+    /**
+     * constructor
+     *
+     * @param text     text to display
+     * @param duration time in ms the message is shown
+     */
     public Notification(String text, int duration) {
         this();
         setText(text);
         setDuration(duration);
     }
 
+    /**
+     * constructor
+     *
+     * @param text     text to display
+     * @param duration time in ms the message is shown
+     * @param position where the message is shown
+     */
     public Notification(String text, int duration, Position position) {
         this();
         setText(text);
@@ -43,11 +56,16 @@ public class Notification extends UiComponent {
         setPosition(position);
     }
 
+    /* // not supported yet
     public Notification(UiComponent... components) {
         this();
         // FIXME
     }
+    */
 
+    /**
+     * opens the notification
+     */
     public void open() {
 
         if (text != null) {

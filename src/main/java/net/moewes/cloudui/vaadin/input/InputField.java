@@ -13,6 +13,7 @@ public abstract class InputField extends UiComponent {
     private boolean preventInvalidInput;
     private boolean autoselect;
     private boolean clearButtonVisible;
+    private boolean invalid;
 
     protected InputField(String tag) {
         super(tag);
@@ -90,10 +91,12 @@ public abstract class InputField extends UiComponent {
         if (readonly) {
             getElement().setAttribute("readonly", "true");
         }
+        if (invalid) {
+            getElement().setAttribute("invalid", "true");
+        }
         return super.render();
     }
 
     // TODO
-    // invalid
     // Theme variants
 }
