@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"net.moewes.cloud.ui.vaadin"}]
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"net.moewes.cloudui.vaadin"},{"l":"net.moewes.cloudui.vaadin.input"}]
