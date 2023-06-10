@@ -43,6 +43,10 @@ public class Button extends UiComponent {
         add(icon);
     }
 
+    public void addClickListener(Consumer<UiEvent> function) {
+        addEventListener("click",function);
+    }
+
     @Override
     public UiElement render() {
         String theme = type.getAttributeText() + " " + size.getAttributeText() + " " + color.getAttributeText();
