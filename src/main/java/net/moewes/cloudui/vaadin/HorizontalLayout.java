@@ -11,6 +11,10 @@ public class HorizontalLayout extends UiComponent {
         super("vaadin-horizontal-layout");
     }
 
+    /**
+     * Creates HorizontalLayout with elements
+     * @param components Elements to add
+     */
     public HorizontalLayout(UiComponent... components) {
         this();
         add(components);
