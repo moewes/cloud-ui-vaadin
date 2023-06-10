@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"Alle Packages","u":"allpackages-index.html"},{"l":"net.moewes.cloudui.vaadin"},{"l":"net.moewes.cloudui.vaadin.input"}];updateSearchResults();
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"net.moewes.cloudui.vaadin"},{"l":"net.moewes.cloudui.vaadin.input"}]
