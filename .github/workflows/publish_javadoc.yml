@@ -34,7 +34,7 @@ jobs:
         id: tidy
         uses: cicirello/javadoc-cleanup@v1
         with:
-          base-url-path: https://moewes.github.io/cloud-ui-vaadin
+          base-url-path: https://moewes.github.io/cloud-ui-vaadin/
           path-to-root: docs
 
       - name: Log javadoc-cleanup output
