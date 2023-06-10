@@ -13,7 +13,7 @@ public class VerticalLayout extends UiComponent {
 
     /**
      * Create VerticalLayout with Elements
-     * @param components Element to add
+     * @param components Elements to add
      */
     public VerticalLayout(UiComponent... components) {
         this();

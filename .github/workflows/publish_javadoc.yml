@@ -20,6 +20,10 @@ jobs:
 
       - name: Build docs with Maven
         run: mvn javadoc:javadoc --settings settings.xml
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USENAME: ${{github.actor}}
+          PASSWORD: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Copy to Documentation Website Location
         run: |
