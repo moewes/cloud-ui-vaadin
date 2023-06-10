@@ -11,6 +11,10 @@ public class VerticalLayout extends UiComponent {
         super("vaadin-vertical-layout");
     }
 
+    /**
+     * Create VerticalLayout with Elements
+     * @param components Element to add
+     */
     public VerticalLayout(UiComponent... components) {
         this();
         add(components);

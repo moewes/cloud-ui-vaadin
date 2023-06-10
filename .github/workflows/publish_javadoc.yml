@@ -19,7 +19,7 @@ jobs:
           distribution: 'adopt'
 
       - name: Build docs with Maven
-        run: mvn javadoc:javadoc
+        run: mvn javadoc:javadoc --settings settings.xml
 
       - name: Copy to Documentation Website Location
         run: |
