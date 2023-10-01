@@ -12,6 +12,8 @@ registries:
     password: ${{ secrets.MY_TOKEN }}
 updates:
   - package-ecosystem: "maven" # See documentation for possible values
+    registries:
+      - "maven-github"
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
